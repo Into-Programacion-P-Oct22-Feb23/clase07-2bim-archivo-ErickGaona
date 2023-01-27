@@ -8,7 +8,7 @@ public class CrearArchivoTexto {
     // agrega registros al archivo
     public static void agregarRegistros(String valor) {
         try {
-            Formatter salida = new Formatter("data/salidaDatosPersonales.txt");
+            Formatter salida = new Formatter("data/salidaDatosPersonales2.txt");
             salida.format("%s\n", valor);
             salida.close();
 
